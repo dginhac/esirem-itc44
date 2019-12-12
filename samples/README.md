@@ -1,5 +1,5 @@
 ## Samples / Exemples
-Samples of Code presented during lectures are available for downloads as Xcode [playgrounds] (playgrounds) or [Swift code](swift)
+Samples of Code presented during lectures are available for downloads as Xcode [playgrounds](playgrounds) or [Swift code](swift)
 
 
 * Sample 01: Basic Variables ([Playground](playgrounds/01-basic-variables.playground) or [Swift](swift/01-basic-variables.swift))
