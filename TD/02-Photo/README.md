@@ -1,0 +1,1 @@
+![Photo app](../img/photo-app.png)
