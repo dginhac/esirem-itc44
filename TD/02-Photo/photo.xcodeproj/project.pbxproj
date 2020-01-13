@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7092FB0023C3E81900A6D643 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7092FAFF23C3E81900A6D643 /* AddPhotoViewController.swift */; };
 		70AF9B7A239ECD6900C13254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF9B79239ECD6900C13254 /* AppDelegate.swift */; };
 		70AF9B7C239ECD6900C13254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF9B7B239ECD6900C13254 /* SceneDelegate.swift */; };
 		70AF9B7E239ECD6900C13254 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF9B7D239ECD6900C13254 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7092FAFF23C3E81900A6D643 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		70AF9B76239ECD6900C13254 /* photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AF9B79239ECD6900C13254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70AF9B7B239ECD6900C13254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				70AF9B7B239ECD6900C13254 /* SceneDelegate.swift */,
 				70AF9B7D239ECD6900C13254 /* ViewController.swift */,
 				70AF9B7F239ECD6900C13254 /* Main.storyboard */,
+				7092FAFF23C3E81900A6D643 /* AddPhotoViewController.swift */,
 				70AF9C0F239EDEC200C13254 /* DetailsViewController.swift */,
 				70AF9C0B239ED9C900C13254 /* PhotoTableViewCell.swift */,
 				70AF9B82239ECD6C00C13254 /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70AF9C0C239ED9C900C13254 /* PhotoTableViewCell.swift in Sources */,
+				7092FB0023C3E81900A6D643 /* AddPhotoViewController.swift in Sources */,
 				70AF9B7E239ECD6900C13254 /* ViewController.swift in Sources */,
 				70AF9B7A239ECD6900C13254 /* AppDelegate.swift in Sources */,
 				70AF9B7C239ECD6900C13254 /* SceneDelegate.swift in Sources */,
