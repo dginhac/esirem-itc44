@@ -13,5 +13,5 @@ Samples of Code presented during lectures are available for downloads as Xcode [
 * Sample 09: Functions ([Playground](playgrounds/09-functions.playground) or [Swift](swift/09-functions.swift))
 * Sample 10: Classes ([Playground](playgrounds/10-classes.playground) or [Swift](swift/10-classes.swift))
 * Sample 11: Protocols ([Playground](playgrounds/11-protocols.playground) or [Swift](swift/11-protocols.swift))
-* Sample 12: To be continued...
+* Sample 12: ARC ([Playground](playgrounds/12-arc.playground) or [Swift](swift/12-arc.swift))
 
