@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_1_se2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lX8-Ih-hpA">
+                                <rect key="frame" x="20" y="64" width="374" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcq-Q8-8AP">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="50"/>
+                                        <state key="normal" title="Tri"/>
+                                        <connections>
+                                            <action selector="wordsSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hcd-GV-R2t"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSb-Fv-zpS">
+                                        <rect key="frame" x="197" y="0.0" width="177" height="50"/>
+                                        <state key="normal" title="Mélange"/>
+                                        <connections>
+                                            <action selector="wordsShuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBB-8L-bmG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IzN-AR-iWg"/>
+                                </constraints>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hmG-Vu-oPC">
+                                <rect key="frame" x="20" y="144" width="374" height="688"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wordCell" rowHeight="87" id="C60-Fv-3XO" customClass="WordTableViewCell" customModule="_1_se2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="87"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C60-Fv-3XO" id="eNW-FB-Nem">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="87"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wf-6C-S02">
+                                                    <rect key="frame" x="40" y="16" width="294" height="55"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5Wf-6C-S02" secondAttribute="trailing" constant="20" id="106-oy-8aC"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="5Wf-6C-S02" secondAttribute="bottom" constant="5" id="3nX-7h-Ueh"/>
+                                                <constraint firstItem="5Wf-6C-S02" firstAttribute="leading" secondItem="eNW-FB-Nem" secondAttribute="leadingMargin" constant="20" id="4Rh-sy-sGv"/>
+                                                <constraint firstItem="5Wf-6C-S02" firstAttribute="top" secondItem="eNW-FB-Nem" secondAttribute="topMargin" constant="5" id="wpo-jY-H6d"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="word" destination="5Wf-6C-S02" id="zH3-i2-THB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hmG-Vu-oPC" firstAttribute="top" secondItem="lX8-Ih-hpA" secondAttribute="bottom" constant="30" id="B6x-kA-rXc"/>
+                            <constraint firstItem="lX8-Ih-hpA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ORD-2j-X26"/>
+                            <constraint firstItem="hmG-Vu-oPC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SuG-cL-gga"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lX8-Ih-hpA" secondAttribute="trailing" constant="20" id="aKH-Gl-DMn"/>
+                            <constraint firstItem="lX8-Ih-hpA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="eeN-O6-H0t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hmG-Vu-oPC" secondAttribute="trailing" constant="20" id="ffg-Xi-yfs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hmG-Vu-oPC" secondAttribute="bottom" constant="30" id="mmK-kn-83j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="wordTableView" destination="hmG-Vu-oPC" id="qWx-ae-tVa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
