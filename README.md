@@ -9,6 +9,11 @@ The documents available in this GitHub repository are intended for students in t
 They are subject to change as the content of this module evolves.
 They are distributed under the terms of the GPLv3 - [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) and can be freely used by anyone who want to learn Swift/iOS
 
+## Latest NEWS: 
+
+* 2020/12/03: Add ressources in [youtube](youtube) directory for YouTube tutorials
+* 2020/12/03: Add [EggTimer](TD/02-EggTimer) application
+
 ## Lectures
 Lectures are organized in lessons, each of them are dedicated to a specific Swift/iOS topic. They are available in pdf format for download:
 
@@ -26,6 +31,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific Swif
 * Directory [exams](exams): Exams
 * Directory [utils](utils): Additional documents
 * Directory [lectures](lectures): Additional information on lectures
+* Directory [youtube](youtube) : Ressources for YouTube tutorials
 
 ## License
 

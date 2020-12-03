@@ -25,6 +25,7 @@ Les supports de cours au format pdf (en anglais) sont accessibles pour télécha
 * Directory [exams](exams): Examens avec corrigés
 * Dossier [utils](utils): Documents annexes
 * Dossier [lectures](lectures): Explications complémentaires sur les cours
+* Dossier [youtube](youtube) : Ressources pour les tutos YouTube
 
 ## License
 
