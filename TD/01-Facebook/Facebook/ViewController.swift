@@ -18,9 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet var OtherButtons: [UIButton]! // The two other buttons
                                             // Do not forget to add a tag to each button
     
-    // Used for storing the initial location of profile Image View
-    // Defined as an optional (init value = nil)
-    var center: CGPoint?
+    
     
     // 1 - IBAction is the first possibility to interact with the UI
     //
@@ -100,6 +98,11 @@ class ViewController: UIViewController {
     // touchesBegan, touchesMoved and touchesEnded
     // All the 3 functions have two parameters: a set of touches and an event
     // For each of these functions, we have to look at the first element of the set of touches.
+    
+    
+    // Used for storing the initial location of profile Image View
+    // Defined as an optional (init value = nil)
+    var center: CGPoint?
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // if first exist

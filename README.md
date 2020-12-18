@@ -13,6 +13,7 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 
 * 2020/12/03: Add ressources in [youtube](youtube) directory for YouTube tutorials
 * 2020/12/03: Add [EggTimer](TD/02-EggTimer) application
+* 2020/12/18: Add [People](TD/03-People) application
 
 ## Lectures
 Lectures are organized in lessons, each of them are dedicated to a specific Swift/iOS topic. They are available in pdf format for download:
