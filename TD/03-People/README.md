@@ -1,0 +1,1 @@
+![People app](../img/people-app.png)
