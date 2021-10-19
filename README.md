@@ -28,7 +28,6 @@ Lectures are organized in lessons, each of them are dedicated to a specific Swif
 * Directory [TD](TD): Tutorials 
 * Directory [exams](exams): Exams
 * Directory [utils](utils): Additional documents
-* Directory [lectures](lectures): Additional information on lectures
 * Directory [youtube](youtube) : Ressources for YouTube tutorials
 
 ## License
