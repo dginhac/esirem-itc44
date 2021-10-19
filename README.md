@@ -1,16 +1,15 @@
 # Esirem - Informatique / Electronique - Module ITC44
-iOS App  Development
+Mobile Development
 
-La version française de ce fichier [LISEZMOI](LISEZMOI.md) est également disponible.
 
 ## Introduction
 
 The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
-They are distributed under the terms of the GPLv3 - [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) and can be freely used by anyone who want to learn Swift/iOS
 
 ## Latest NEWS: 
 
+* 2021/10/19: Updated lectures for season 2021-2022
 * 2020/12/03: Add ressources in [youtube](youtube) directory for YouTube tutorials
 * 2020/12/03: Add [EggTimer](TD/02-EggTimer) application
 * 2020/12/18: Add [People](TD/03-People) application
@@ -18,13 +17,11 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 ## Lectures
 Lectures are organized in lessons, each of them are dedicated to a specific Swift/iOS topic. They are available in pdf format for download:
 
-* Lesson 00: Introduction - [http://ginhac.com/teaching/ITC44/00-introduction.pdf](http://ginhac.com/teaching/ITC44/00-introduction.pdf)
+* Lesson 00: [Course Introduction](http://ginhac.com/teaching/ITC44/2021-2022/00-introduction.pdf)
 * Lesson 01: iOS development- [http://ginhac.com/teaching/ITC44/01-ios-dev.pdf](http://ginhac.com/teaching/ITC44/01-ios-dev.pdf)
-* Lesson 02: Basics : from variables to functions - [http://ginhac.com/teaching/ITC44/02-swift-basics.pdf](http://ginhac.com/teaching/ITC44/02-swift-basics.pdf)
-* Lesson 03: Basics : from functions to classes - [http://ginhac.com/teaching/ITC44/03-swift-functions.pdf](http://ginhac.com/teaching/ITC44/03-swift-functions.pdf)
-* Lesson 04: Protocols - [http://ginhac.com/teaching/ITC44/04-protocols.pdf](http://ginhac.com/teaching/ITC44/04-protocols.pdf)
-* Lesson 05 : Automatic Reference Counting - [http://ginhac.com/teaching/ITC44/05-arc.pdf](http://ginhac.com/teaching/ITC44/05-arc.pdf)
-* Lesson 06 : Model View Controller - [http://ginhac.com/teaching/ITC44/06-mvc.pdf](http://ginhac.com/teaching/ITC44/06-mvc.pdf)
+* Lesson 02: [Basics of Swift](http://ginhac.com/teaching/ITC44/2021-2022/02-swift-basics.pdf)
+* Lesson 03: [One more thing](http://ginhac.com/teaching/ITC44/2021-2022/03-one-more-thing.pdf)
+
 
 ##  Content
 * Directory [samples](samples): Sets of codes used in lectures
@@ -36,19 +33,18 @@ Lectures are organized in lessons, each of them are dedicated to a specific Swif
 
 ## License
 
-Copyright (C) 2019  D. Ginhac [dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)
+The lectures are licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc]and the source code is licensed under a [GNU General Public License (GPL) version 3][gpl-3].
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+[![License: GPL v3][gpl-3-image]][gpl-3]
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+[cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
+[gpl-3]: https://www.gnu.org/licenses/gpl-3.0
+[gpl-3-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg
+[gpl-3-image]: https://www.gnu.org/graphics/gplv3-or-later-sm.png
 
