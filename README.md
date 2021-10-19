@@ -18,9 +18,8 @@ They are subject to change as the content of this module evolves.
 Lectures are organized in lessons, each of them are dedicated to a specific Swift/iOS topic. They are available in pdf format for download:
 
 * Lesson 00: [Course Introduction](http://ginhac.com/teaching/ITC44/2021-2022/00-introduction.pdf)
-* Lesson 01: iOS development- [http://ginhac.com/teaching/ITC44/01-ios-dev.pdf](http://ginhac.com/teaching/ITC44/01-ios-dev.pdf)
-* Lesson 02: [Basics of Swift](http://ginhac.com/teaching/ITC44/2021-2022/02-swift-basics.pdf)
-* Lesson 03: [One more thing](http://ginhac.com/teaching/ITC44/2021-2022/03-one-more-thing.pdf)
+* Lesson 01: [Basics of Swift](http://ginhac.com/teaching/ITC44/2021-2022/01-swift-basics.pdf)
+* Lesson 02: [One more thing](http://ginhac.com/teaching/ITC44/2021-2022/02-one-more-thing.pdf)
 
 
 ##  Content
