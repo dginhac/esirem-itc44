@@ -1,6 +1,7 @@
-# Esirem - Informatique / Electronique - Module ITC44
-Mobile Development
+# Mobile Development (Esirem)
 
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+[![License: GPL v3][gpl-3-shield]][gpl-3]
 
 ## Introduction
 
