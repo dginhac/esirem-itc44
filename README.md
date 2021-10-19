@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 ## Latest NEWS: 
 
 * 2021/10/19: Updated lectures for season 2021-2022
+* 2020/12/03: Update [Youtube Channel](https://www.youtube.com/user/dginhac) 
 * 2020/12/03: Add ressources in [youtube](youtube) directory for YouTube tutorials
 * 2020/12/03: Add [EggTimer](TD/02-EggTimer) application
 * 2020/12/18: Add [People](TD/03-People) application
