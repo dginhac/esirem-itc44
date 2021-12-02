@@ -8,8 +8,9 @@
 The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS: 
+## Latest NEWS:
 
+* 2021/12/01: Add labs
 * 2021/10/19: Updated lectures for season 2021-2022
 * 2020/12/03: Update [Youtube Channel](https://www.youtube.com/user/dginhac) 
 * 2020/12/03: Add ressources in [youtube](youtube) directory for YouTube tutorials
@@ -24,8 +25,9 @@ Lectures are organized in lessons, each of them are dedicated to a specific Swif
 * Lesson 02: [One more thing](http://ginhac.com/teaching/ITC44/2021-2022/02-one-more-thing.pdf) - 29.3 MB - Last release on Oct, 19
 
 
-##  Content
+## Content
 * Directory [samples](samples): Sets of codes used in lectures
+* Directory [TP](TP): Lab 
 * Directory [TD](TD): Tutorials 
 * Directory [exams](exams): Exams
 * Directory [utils](utils): Additional documents

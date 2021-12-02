@@ -1,8 +1,10 @@
 # TP Programmation Application Mobile iOS
 
+La version [pdf](TP-todolist.pdf) de ce sujet est également disponible.
+
 # Introduction
 
-![](image1.png)L'objectif des séances de TP est de développer une application complète de type Gestionnaire de tâches (Todo list). Le développement de cette application sera fait en respectant le modèle MVC et se décomposera en plusieurs phases, chacune d'elles permettant d'ajouter de nouvelles fonctionnalités.
+L'objectif des séances de TP est de développer une application complète de type Gestionnaire de tâches (Todo list). Le développement de cette application sera fait en respectant le modèle MVC et se décomposera en plusieurs phases, chacune d'elles permettant d'ajouter de nouvelles fonctionnalités.
 
 Le développement se fera en binôme. Le sujet étant suffisamment vaste, chaque binôme d'étudiants sera libre d'implémenter « à sa manière » le problème posé.
 
@@ -15,6 +17,8 @@ Toutes les fonctionnalités demandées n'ont pas forcément été vues lors des 
 # 1. Conception du modèle de données
 
 En swift, proposer une classe Todo qui servira de modèle de données à l'application. Une tâche ou todo sera composée au minimum d'un nom et d'une description (permettant si besoin de donner des détails sur la tâche). Par exemple, la tâche « Faire les courses » avec la description « Lait, biscuits, conserves, viande, eau, … ».
+
+![](image1.png)
 
 # 2. Création du Storyboard et Programmation de l'application
 
