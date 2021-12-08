@@ -2,7 +2,7 @@
 
 Tutorials presented in TD are available for download
 
-* [TableView App](2021-2022/tableview) is a basic multiview app that displays/updates a dynamic set of data   
+* [TableView App](2021-2022/01-Tableview) is a basic multiview app that displays/updates a dynamic set of data   
 
 ## TD / Tutorials (2020-2021)
 
