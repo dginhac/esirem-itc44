@@ -21,9 +21,9 @@ They are subject to change as the content of this module evolves.
 ## Lectures
 Lectures are organized in lessons, each of them are dedicated to a specific Swift/iOS topic. They are available in pdf format for download:
 
-* Lesson 00: [Course Introduction](http://ginhac.com/teaching/ITC44/latest/00-introduction.pdf) - 37 MB - Last release on Sept. 23, 2022
-* Lesson 01: [Basics of Swift](http://ginhac.com/teaching/ITC44/latest/01-swift-basics.pdf) - 29.1 MB - Last release on Sept. 23, 2022
-* Lesson 02: [One more thing](http://ginhac.com/teaching/ITC44/latest/02-one-more-thing.pdf) - 29.3 MB - Last release on Sept. 23, 2022
+* Lesson 00: [Course Introduction](http://ginhac.com/teaching/ITC44/latest/00-introduction.pdf) - 36.4 MB - Last release on Sept. 23, 2022
+* Lesson 01: [Basics of Swift](http://ginhac.com/teaching/ITC44/latest/01-swift-basics.pdf) - 30.9 MB - Last release on Sept. 23, 2022
+* Lesson 02: [One more thing](http://ginhac.com/teaching/ITC44/latest/02-swift-more.pdf) - 28.6 MB - Last release on Sept. 23, 2022
 
 
 ## Content
